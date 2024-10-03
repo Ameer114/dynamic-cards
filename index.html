@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Card</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="card2.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <img src="card2.jpg" height="100%" width="400px" alt="">
+        <div class="dur">30:20</div>
+        <div class="left"><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto culpa fuga, sequi doloremque rerum tenetur?</b>
+        <br> 
+        <span class="channel">Amie Here!</span> 
+        <span class="views"><span class="tempview">143k</span> Views </span>
+        <span class="month"><span class="tempmonth">3 </span>Months Ago</span>
+        </div>
+    </div>
+    
+</div>
+<div class="info">
+   <h5> Title: <input type="text" id="title"> </h5><br>
+   <h5>Image: <input type="url" id="image" placeholder="paste image url"></h5> <br>
+    <h5>Duration: <input type="text" name="duration" id="dur"> </h5><br>
+    <h5>Channel: <input type="text" id="channel"></h5><br>
+    <h5>Views: <input type="number" id="views"></h5><br>
+    <h5>Months Ago: <input type="number" id="mnth"></h5><br>
+    <button onclick="add()">Add Card</button>
+</div>
+</body>
+</html>
